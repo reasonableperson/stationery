@@ -1,0 +1,79 @@
+\documentclass{resume}
+
+% watermark
+\usepackage{background}
+\SetBgContents{\includegraphics{background.pdf}}
+\SetBgScale{0.7}
+\SetBgAngle{10}
+\SetBgVshift{50}
+\SetBgHshift{300}
+
+\begin{document}
+
+\header{
+	{\huge\textsc{Atticus Finch}} \\
+	\Large\emph{curriculum vitae}
+}{
+    \home 132 Walnut St, Maycomb AL \\[2pt]
+    \email law@attic.us \\[2pt]
+    \phone +28 (04) 1926-2013 \\[2pt]
+}
+
+\section{Education}{
+    \org{University of Alabama}{2000-2003}{
+        \jobtitle{Juris Doctor}
+        \li{4.0 grade point average}
+        \li{Moot court and law review}
+    } % end \org
+    \org{Harvard University}{1997-1999}{
+        \jobtitle{Bachelor of Arts (History)}
+        \li{3.8 grade point average}
+    } % end \org
+} % end \section
+
+\section{Employment}{
+    \org{Public Interest Law Centre}{2011--present}{
+        \jobtitle{Senior Solicitor}
+        \li{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+        \li{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat}
+    }
+    \org{Maycomb County DA's Office}{2005--2011}{
+        \jobtitle{Disgruntled Prosecutor}
+        \li{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+        \li{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat}
+    }
+}
+
+\section{Projects}{
+    \org{Nam dui ligula, fringilla a}{2013}{
+        \li{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+        \li{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat}}
+    \org{`Sed ut perspiciatis unde omnis}{2012}{
+        \li{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+        \li{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat}}
+    \org{At vero eos et accusamus}{2011}{
+        \li{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.}
+        \li{Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat}}
+}
+
+\section{Referees}{
+    \referee{Harper Lee}
+        {Author \\ Mockingbird Enterprises Ltd}
+        {0412 345 678}
+        {harper.lee@goodreads.com}
+    \referee{Tom Robinson}
+        {Accused \\ Local Courtroom}
+        {0498 765 432}
+        {notguilty@alabama.gov}
+}
+\end{document}

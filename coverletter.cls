@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{sjyletter}[2013/11/23]
-\LoadClass[12pt]{letter}
+\ProvidesClass{coverletter}
+\LoadClass{core}
 
 % Page setup: paper size and margins.
 \usepackage[top=2cm, bottom=2cm, left=4cm, right=4cm]{geometry}

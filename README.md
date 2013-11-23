@@ -7,12 +7,12 @@ correspondence and my CV.
 ### examples
 
 #### résumé
-!(/examples/screenshots/render-resume-wholepage.png "One-page résumé with vector watermark")
-[view pdf](/examples/example-resume.pdf)
+![Resume screenshot](/examples/screenshots/render-resume-wholepage.png "One-page résumé with vector watermark")
+[View PDF](/examples/example-resume.pdf?raw=true)
 
 #### letter
-!(/examples/screenshots/render-letter-wholepage.jpg "One-page letter with vector signature")
-[view pdf](/examples/example-letter.pdf)
+![Letter screenshot](/examples/screenshots/render-letter-wholepage.jpg "One-page letter with vector signature")
+[View PDF](/examples/example-letter.pdf?raw=true)
 
 #### signatures
 !(/examples/screenshots/render-letter-closeup.jpg "Closeup of ligatures and vectorised signature")

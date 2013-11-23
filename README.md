@@ -1,26 +1,24 @@
-# some handy XeTeX templates
+## stationery: some handy XeTeX templates
 
 This is a collection of templates I made for `xelatex`. They showcase
 the open source font Linux Libertine; I use them to typeset attractive
 correspondence and my CV.
 
-## what your markup looks like
-A minimal document:
+### examples
 
-    \documentclass{coverletter}
-    \begin{document}
+#### résumé
+!(/examples/screenshots/render-resume-wholepage.png "One-page résumé with vector watermark")
+[view pdf](/examples/example-resume.pdf)
 
-    \todaysdate
-    
-    Hi there,
-    
-    How are you going?
-    
-    Cheers,\\
-    Scott
-    \end{document}
+#### letter
+!(/examples/screenshots/render-letter-wholepage.jpg "One-page letter with vector signature")
+[view pdf](/examples/example-letter.pdf)
 
-See the `examples` for complete documents.
+#### signatures
+!(/examples/screenshots/render-letter-closeup.jpg "Closeup of ligatures and vectorised signature")
+For tiny file sizes and sharp rendering at any resolution, export a vectorised
+version of your signature to `signature.pdf` and include it with `\signature`.
+(You might need to tweak that macro to get the alignment right.)
 
 ## compiling TeX using these templates
 

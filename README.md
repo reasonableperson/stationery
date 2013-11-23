@@ -11,11 +11,11 @@ correspondence and my CV.
 [View PDF](/examples/example-resume.pdf?raw=true)
 
 #### letter
-![Letter screenshot](/examples/screenshots/render-letter-wholepage.jpg "One-page letter with vector signature")
+![Letter screenshot](/examples/screenshots/render-letter-wholepage.png "One-page letter with vector signature")
 [View PDF](/examples/example-letter.pdf?raw=true)
 
 #### signatures
-!(/examples/screenshots/render-letter-closeup.jpg "Closeup of ligatures and vectorised signature")
+![Ligature screenshot](/examples/screenshots/render-letter-closeup.jpg "Closeup of ligatures and vectorised signature")
 For tiny file sizes and sharp rendering at any resolution, export a vectorised
 version of your signature to `signature.pdf` and include it with `\signature`.
 (You might need to tweak that macro to get the alignment right.)

@@ -14,3 +14,6 @@
 \def\signature{\\
     \hspace*{-1em}
     \includegraphics[scale=0.5]{signature.pdf}\\}
+
+% Enable mail merge.
+\usepackage{mailmerge}

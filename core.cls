@@ -28,9 +28,6 @@
     \cleanlookdateon\today
 \end{flushright}}
 
-% Enable iteration in document instances.
-\usepackage{ifthen}
-
 % Enable hyperlinks.
 \usepackage{hyperref}
 \usepackage[normalem]{ulem} % dotted underline
